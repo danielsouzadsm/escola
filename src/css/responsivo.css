@@ -83,10 +83,11 @@
         max-width: 100%;
         display: flex;
         flex-wrap: wrap;
-        margin: 1px 0 2px 65px;
+        margin: 1px 0 2px 75px;
     }  
     .cabeçalho .títulologo{
         margin-bottom: 3px;
+        font-size: 17px;
     }  
     .container{
         max-width: 100%;
@@ -96,6 +97,7 @@
     .container .titulotecnico{
         justify-content: center;
         margin: 10px 0 0 0;
+        font-size: 37px;
     }
 
     .container .titulocontato{
@@ -106,13 +108,14 @@
         font-size: 15px;
         justify-content: center;
         padding: 40px 0 40px 0;
-        margin-left: 50px;
+        margin-left: 70px;
         display: flex;
     }
     .container .botões{
         font-size: 15px;
         display: flex;
-        align-content: center; 
+        align-content: center;
+        margin: 0 0 0 72px;
     }
     .rodapé{
         font-size: 17px;
@@ -125,11 +128,18 @@
 
 @media (max-width: 376px){
 
-    .container .titulo{
+    .container .titulologo{
         font-size: 40px;
         gap: 20px;
         padding-top: 50px;
         padding: 100px 0 10px 0;
+    }
+
+    .container .titulotecnico{
+        font-size: 33px;
+    }
+    .container .titulocontato{
+        font-size: 30px;
     }
     .cabeçalho .logo{
         height: 100%;
@@ -138,18 +148,18 @@
     }
     .container {
         display: flex;
-        padding: 0px 0 0px 0px;
+        padding: 30px 0 30px 0px;
         margin:  0 0 0 0;
     }
     .container .descrição{
         display: flex;
-        text-align:justify;
-        font-size: 20px;
+        text-align:center;
+        font-size: 18px;
+        margin-left: 50px;
     }
 
     .container .botões{
-        padding-top: 20px;
-        font-size: 10px;
+        padding-top: 20px; 
     }
     
 }
