@@ -111,9 +111,21 @@
         margin-left: 70px;
         display: flex;
     }
+    .container .facebook{
+        width: 30px;
+    }
+    .container .instagram{
+        width: 30px;
+    }
+    .container .zap{
+        width: 30px;
+    }
+    .container .botão-link{
+        width: 30px;
+    }
     .container .botões{
-        font-size: 15px;
         display: flex;
+        flex-wrap: wrap;
         align-content: center;
         margin: 0 0 0 72px;
     }
