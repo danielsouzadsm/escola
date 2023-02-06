@@ -1,85 +1,93 @@
-.cabeçalho{ 
+
+.cabeçalho{
     max-width: 100%;
-    background: rgb(9,20,20);
-    background: linear-gradient(90deg, rgba(9,20,20,1) 0%, rgba(50,52,152,0.9245448179271709) 50%, rgba(0,0,0,1) 100%); 
-    padding: 20px;
-    justify-content: space-between;
-    margin: 0 auto;
-    
-}    
+    display: flex;
+    gap: 15px;
+    padding: 0 0 0px 95px;  
+    margin: 20px 0px 20px 0px;
+}
+
+.cabeçalho .títulologo{
+    color: rgb(3, 49, 88);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family:"Comfortaa",sans-serif;
+    font-weight: bold;
+}
 
 .cabeçalho .logo {
-    width: 35px;
+    width: 40px;
     border-radius: 30%;
+    padding-top: 6px;
+    padding-left: 5px;
 }
 .container {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,0.5856092436974789) 0%, rgba(238,174,202,0.26908263305322133) 50%, rgba(148,187,233,1) 100%);
     max-width: 100%;
     display: flex;
-    margin: 0 auto;
-    padding: 116px 10px 116px;
-    flex-direction: column;   
+    padding: 100px 0 0 100px;
+    flex-direction: column;
+    background-color: #0e2843;
 }
-.container .titulo{
-    font-size: 50px;
-    color: #0b202e;
+
+.container .titulotecnico{
+    color: aliceblue;
     text-align: center;
     display: flex;
-    font-family:'chivo';
-    justify-content: center;
-    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
     font-weight: bold;
-    padding-top: 50px;
+    padding: 30px 0 40px 0;
+}
+.container .titulocontato{
+    font-size: 35px;
+    color: aliceblue;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 30px 0 40px 0;
 }
 
 .container .descrição{
-    font-family: 'poppins';
-    color: #363535;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    padding: 70px 0 70px 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #d9f5ef;
+    font-size: 18px;
+    text-align: justify;
+    padding: 80px 40px 80px 50px;
+    margin: 0 90px 0 0;
+    max-width: 70%;
 }
 
 
 .container .instagram{
-    border: none;
     border-radius: 90%;
     transition: 0.5s all ease-in-out;
+    width: 40px;
 }
 
 .container .facebook{
-    max-width: 150px;
-    border: none;
-    cursor: pointer;
     transition: 0.5s all ease-in-out;
     border-radius: 90%;
+    width: 40px;
 }
 .container .zap{
-    border: none;
-    cursor: pointer;
     transition: 0.5s all ease-in-out;
     border-radius: 90%;
+    width: 40px;
 }
 
 .container .botão-link{
-    border: none;
-    padding: 4px;
     font-size: 80%;
     transition: 0.5s all ease-in-out;
-    border-radius: 50px;
-    font-weight: bold;
-    cursor: pointer;
+    border-radius:90%;
+    width: 40px;
 }
 
 .container .botões{
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: space-evenly;
+    max-width: 70%;
     display: flex;
-    padding: 50px 0 50px 0 ;
-    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px 60px 3px;
 }
 
 .container .botão-link:hover{
@@ -97,11 +105,32 @@
 }
 
 .rodapé{
-   display: flex;
+    background-color: #0e2843;
    flex-direction: column;
    text-align: center;
    height: 100px;
-   font-size: 10px;
-   background: rgb(240,255,255);
-    background: radial-gradient(circle, rgba(240,255,255,1) 0%, rgba(255,255,255,0.26908263305322133) 50%, rgba(247,255,255,1) 100%);   
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   font-family:Arial, Helvetica, sans-serif;
+}
+.rodapé .escola{
+    padding-top: 5px;
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.rodapé .lugar{
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.rodapé .cnpj{
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.rodapé .gmail{
+    margin-bottom: 2px;
+    font-size: 13px;
 }
