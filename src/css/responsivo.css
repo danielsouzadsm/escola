@@ -59,6 +59,11 @@
 
     .container .descrição{
         font-size: 20px;
+        display: flex;
+        text-align: center;
+    }
+    .container .botões{
+        margin-left: 30px;
     }
     .rodapé{
         display: flex;
