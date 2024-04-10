@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(252, 247, 247, 0.63) no-repeat top center/cover;
+    height: 100vh;
+}
+:root {
+    --text-color: rgb(255, 255, 255);
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --surface-color: rgba(255, 255, 255, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color: rgba(255, 255, 255, 0.2);
+    --switch-bg-url: url(./assets/moon-stars.svg);
+}
+.light{
+    --text-color:rgb(0, 0, 0);
+    --stroke-color:rgba(0, 0, 0, 0.5);
+    --surface-color: rgba(0, 0, 0, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color: rgba(0, 0, 0, 0.1);
+    --switch-bg-url: url(./assets/sun.svg);
+}
+#container{
+    max-width: 558px;
+    width: 100px;
+    margin: 56px auto 0;
+    padding: 0 20px;
+}
+
+#perfil{
+    text-align: center;
+    padding: 34px;
+}
+#perfil img{
+    width: 100px;
+}
+#switch{
+    position: relative;
+    width: 64px;
+    margin: 9px auto;
+}
+#switch button {
+    width: 32px;
+    height: 32px;
+    background: white rgba(255, 255, 255, 0.05) no-repeat center;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+    animation: slide-back 0.2s;
+}
+#switch span{
+    display: block;
+    width: 64px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 9999px;
+}
+.light #switch button{
+    animation: slide-in o.2s forwards
+}
+#switch button:hover{
+    outline:  8px solid var(--highlight-color);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    padding: 24px 0;
+    transition: background 0.3s;
+    list-style: none;
+}
+ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
+ul li a:hover {
+    background: var(--surface-color-hover);
+}
+footer{
+    padding: 29px 0;
+    text-align: center;
+    font-size: 16px;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 500;
+}
+@keyframes Slide-back{
+    from{
+        left: 50%;
+    }
+    to{
+        left: 0;
+    }
+}
