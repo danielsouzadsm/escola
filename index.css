@@ -1,0 +1,136 @@
+
+.cabeçalho{
+    max-width: 100%;
+    display: flex;
+    gap: 15px;
+    padding: 0 0 0px 95px;  
+    margin: 20px 0px 20px 0px;
+}
+
+.cabeçalho .títulologo{
+    color: rgb(3, 49, 88);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family:"Comfortaa",sans-serif;
+    font-weight: bold;
+}
+
+.cabeçalho .logo {
+    width: 40px;
+    border-radius: 30%;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+.container {
+    max-width: 100%;
+    display: flex;
+    padding: 100px 0 0 100px;
+    flex-direction: column;
+    background-color: #0e2843;
+}
+
+.container .titulotecnico{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 30px 0 40px 0;
+}
+.container .titulocontato{
+    font-size: 35px;
+    color: aliceblue;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 30px 0 40px 0;
+}
+
+.container .descrição{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #d9f5ef;
+    font-size: 18px;
+    text-align: justify;
+    padding: 80px 40px 80px 50px;
+    margin: 0 90px 0 0;
+    max-width: 70%;
+}
+
+
+.container .instagram{
+    border-radius: 90%;
+    transition: 0.5s all ease-in-out;
+    width: 40px;
+}
+
+.container .facebook{
+    transition: 0.5s all ease-in-out;
+    border-radius: 90%;
+    width: 40px;
+}
+.container .zap{
+    transition: 0.5s all ease-in-out;
+    border-radius: 90%;
+    width: 40px;
+}
+
+.container .botão-link{
+    font-size: 80%;
+    transition: 0.5s all ease-in-out;
+    border-radius:90%;
+    width: 40px;
+}
+
+.container .botões{
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px 60px 3px;
+}
+
+.container .botão-link:hover{
+    transform: scale(1.1);
+}
+
+.container .instagram:hover{
+    transform: scale(1.1);
+}
+.container .facebook:hover{
+    transform: scale(1.1);
+}
+.container .zap:hover{
+    transform: scale(1.1);
+}
+
+.rodapé{
+    background-color: #0e2843;
+   flex-direction: column;
+   text-align: center;
+   height: 100px;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   font-family:Arial, Helvetica, sans-serif;
+}
+.rodapé .escola{
+    padding-top: 5px;
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.rodapé .lugar{
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.rodapé .cnpj{
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.rodapé .gmail{
+    margin-bottom: 2px;
+    font-size: 13px;
+}
